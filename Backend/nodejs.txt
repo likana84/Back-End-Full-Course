@@ -1,5 +1,0 @@
-to start nodejs in the terminal= npm init -y
-
-to install express = npm install express
-to stop nodejs in the terminal = ctrl + c [simultaneously]
-to run nodejs = node index.js
