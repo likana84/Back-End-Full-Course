@@ -1,13 +1,17 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "my first backend project",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
