@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="/styles.css">
     
 </head>
-<!-- Learnwebcode   DOC + tab= html boilerplate/ ctrl + D= select&change all-->
+<!-- Learnwebcode   DOC + tab= html boilerplate/ ctrl + D= select&change all
+ start- npm run dev-->
 <body>
     <header>
         <h1><a href="/">HEROS WEB</a></h1>
@@ -18,6 +19,9 @@
     </nav>
     <main>
         <form action="/register" method="POST">
+            <% errors.forEach(error => { %>
+               <p class="notice"><%= error %></p>
+                <% }) %>
         <fieldset>
             <legend>Create an account</legend>
             <label for="username" id="username"><small>Username</small></label>
